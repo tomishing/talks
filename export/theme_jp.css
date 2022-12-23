@@ -1,0 +1,58 @@
+/** .reveal {
+    font-size: 60px;
+}
+**/
+.reveal p {
+    font-size: 32px;
+}
+.reveal h1 {
+    font-size: 60px;
+}
+.reveal h2 {
+/**    color: #e78310; **/
+    font-size: 50px;
+}
+
+.reveal h3 {
+    font-size: 40px;
+    text-align: left;
+}
+.reveal li {
+    font-size: 26px;
+}
+.reveal table {
+    font-size: 25px;
+}
+/**
+.reveal h4 {
+    color: #ce9ff5
+}
+**/
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
+
+.reveal .grid-2x1 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    grid-column-gap: 0%;
+    grid-template-columns: 45% 45%;
+}
+
+.reveal .grid-2x2 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    grid-row-gap: 0%;
+    grid-column-gap: 0%;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 40% 40%;
+}
